@@ -1,0 +1,68 @@
+.App {
+  width: 90%;
+  margin: auto;
+}
+.App-logo {
+  height: 80px;
+}
+.App-header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+.App-title {
+  font-size: 1.5em;
+}
+.App-intro {
+  font-size: large;
+}
+.App-content { 
+  padding: 20px;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+}
+form select {
+  display: block;
+  font: inherit;
+  padding: 5px;
+  margin: 0 5px;
+  border: 1px solid #acaaa8;
+}
+form button {
+  background-color: #969494;
+  color: #ffffff;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+form button:hover {
+  background-color: black;
+  color: white;
+}
+table {
+  width: 80%;
+  display:block;
+}
+thead {
+  display: block;
+  width: 80%;
+  height: 50px;
+  background-color: gainsboro;
+}
+tbody {
+  height: 320px;
+  display: inline-block;
+  width: 80%;
+  overflow: auto;
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
